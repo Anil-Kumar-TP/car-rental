@@ -812,3 +812,265 @@ body{
     text-align: center;
 }
 
+.locations-container{
+    max-width: 82rem;
+    height: 20.313rem;
+    margin: 0 auto;
+    background-color: #000000;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.locations-heading-parent{
+    width: 10.188rem;
+    height: 3.188rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.locations-heading-para{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 2.125rem;
+    color: #fff;
+    line-height: 3.188;
+     text-align: center;
+     margin-top: 7rem;
+}
+
+.places-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 82%;
+    /* height: auto; */
+    margin: 0 auto;
+    padding-top: 3rem;
+    /* border: 2px solid red; */
+}
+
+.place-dubai{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 5.55rem;
+    height: 1.787rem;
+    /* border: 2px solid yellow; */
+    gap: 0.5rem;
+}
+
+.locate-place{
+    width: 1.39rem;
+    height: 1.787rem;
+}
+
+.locate-icon{
+    width: 100%;
+    /* height: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dubai-name-parent{
+    width: 3.375rem;
+    height: 1.625rem;
+    
+}
+
+.dubai-name-para{
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 1.176rem;
+    line-height: 1.601;
+    color: #fff;
+    opacity: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.place-abudabi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8.404rem;
+    height: 1.787rem;
+    gap: 0.5rem;
+}
+
+.abudabi-name-parent{
+    width: 5.938rem;
+    height: 1.625rem;
+}
+
+.abudabi-name-para{
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 1.176rem;
+    line-height: 1.601;
+    color: #fff;
+    opacity: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.place-sharjah{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6.957rem;
+    height: 1.787rem;
+    gap: 0.5rem;
+}
+
+.sharjah-name-parent{
+    width: 4.375rem;
+    height: 1.625rem;
+}
+
+.sharjah-name-para{
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 1.176rem;
+    line-height: 1.601;
+    color: #fff;
+    opacity: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.place-fujairah{
+    width: 7.242rem;
+    height: 1.787rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.fujairah-name-parent{
+    width: 4.688rem;
+    height: 1.625rem;
+}
+
+.fujairah-name-para{
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 1.176rem;
+    line-height: 1.601;
+    color: #fff;
+    opacity: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.place-ras{
+    width: 11.279rem;
+    height: 1.787rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.ras-name-parent{
+    width: 8.813rem;
+    height: 1.625rem;
+}
+
+.ras-name-para{
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 1.176rem;
+    line-height: 1.601;
+    color: #fff;
+    opacity: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.place-dubai,
+.place-abudabi,
+.place-sharjah,
+.place-fujairah,
+.place-ras {
+    display: flex;
+    align-items: center;
+    position: relative; /* Make the parent container a reference point for the line */
+    gap: 0.8rem; /* Space between icon and text */
+}
+
+.line {
+    width: 1px; /* Thin vertical line */
+    height: 100%; /* Full height of the parent container */
+    background-color: #fff; /* Line color */
+    opacity: 40%; /* Match the opacity with the text */
+    position: absolute; /* Position the line absolutely */
+    right: -2rem; /* Adjust position relative to the parent */
+    top: 0; /* Align with the top of the parent */
+}
+
+
+.faq-para{
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 2.125rem;
+    line-height: 3.188;
+}
+
+.faq-container {
+    max-width: 71.25rem;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
+.eligibility {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.eligibility p {
+    margin: 0; 
+}
+
+.eligibility img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.book-car{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.2rem;
+   
+}
+
+.age-group{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.license{
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.544;
+    opacity: 50%;
+    border-bottom: 1px solid red;
+}
