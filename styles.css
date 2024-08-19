@@ -12,21 +12,74 @@ body{
 
 
 .header{
-     width : 90rem; 
+    width : 90rem; 
     margin: 0 auto; 
     height: 7.563rem;
-    /* border: 2px solid red; */
+     /* border: 2px solid red;  */
     background-color: #fff;
 }
 
 .header-container{
     max-width: 82rem;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     /* border: 2px solid green; */
 }
+
+.hamburger-icon{
+    display: none;
+}
+
+@media screen and (min-width:768px) and (max-width:1220px){
+    body{
+        width: 200vw;
+    }
+}
+
+@media screen and (max-width:22.5rem) {
+   .header{
+    width:1140px;
+    height: 114px;
+    border: 2px solid greenyellow;
+   }
+
+   .header-container{
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 1.647rem;
+    padding-top: 3.5rem;
+    padding-bottom: 2.15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(255, 0, 255);
+   }
+
+   .logo{
+    width: 9.746rem;
+    height: 1.475rem;
+   }
+
+   .links-parent{
+    display: none;
+   }
+
+   .small-parent{
+    display: none;
+   }
+
+   .social-container{
+    display: none;
+   }
+
+   .hamburger-icon{
+    display: block;
+   }
+}
+
 
 .logo{
     width: 21.875rem;
@@ -62,24 +115,23 @@ body{
     cursor: pointer;
 }
 
+
 .small-parent{
-    width: 48.123rem;
-    height: 0.438rem;
-    margin-left: -2rem;
-    margin-top: 1rem;
+    width: 46.125rem;
+    height: 0.538rem;
 }
 
 .small{
-    font-family: "Poppins";
-    font-size: 0.610rem;
-    color: #000000;
-    font-weight: 400;
     opacity: 50%;
-    /* line-height: 3.546rem; */
+    font-family: "Poppins";
+    font-size: 0.625rem;
     text-align: center;
+    line-height: 4.346;
+    width: 100%;
+    margin-left: -2rem;
+    display: flex;
+    flex-wrap: nowrap;
     white-space: nowrap;
-    /* display: flex;
-    flex-wrap: nowrap; */
 }
 
 .social-container {
